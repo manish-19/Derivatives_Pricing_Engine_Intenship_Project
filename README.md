@@ -1,4 +1,4 @@
-# QFI Project #2 — Derivative Pricing Engine & Greeks Calculation
+# QFI Internship Project: Derivative Pricing Engine & Greeks Calculation
 
 A pricing library and an interactive risk dashboard. Eleven model families,
 one uniform interface, 314 tests, and a validation harness that reruns every
@@ -338,7 +338,7 @@ happen to agree.
 ## Requirements
 
 The engine needs numpy, scipy and pandas. The dashboard adds streamlit and
-plotly. `yfinance` is optional at runtime — every model prices with no network
+plotly. `yfinance` is optional at runtime, every model prices with no network
 at all, and the live-data toggle is off by default.
 
 Python 3.10 or newer.
